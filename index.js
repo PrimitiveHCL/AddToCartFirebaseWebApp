@@ -3,10 +3,10 @@ import { getDatabase, ref, push, onValue, remove} from "https://www.gstatic.com/
 
 const appSettings = {
     // old "Playground" Database
-    // databaseURL: "https://playground-bfa9f-default-rtdb.asia-southeast1.firebasedatabase.app/"
+    // databaseURL: "[Paste databaseURL]"
 
     // "Realtime Database"
-    databaseURL: "https://realtime-database-8eccc-default-rtdb.asia-southeast1.firebasedatabase.app/"
+    // databaseURL: "[Paste databaseURL]"
 }
 
 const app = initializeApp(appSettings)
